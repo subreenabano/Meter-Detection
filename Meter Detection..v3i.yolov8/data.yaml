@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['meter']
+
+roboflow:
+  workspace: sabreena-akbar-s-workspace
+  project: meter-detection-n30cm
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/sabreena-akbar-s-workspace/meter-detection-n30cm/3
